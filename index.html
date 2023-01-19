@@ -5,6 +5,23 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>웹페이지의 구조</title>
+  <style>
+   * {margin: 0;}
+   ul {background-color: red;
+       padding: 0;} 
+   li {background-color: dodgerblue;
+       list-style: none;
+       display: inline-block;
+       width: 20%;
+       text-align: center;
+       color: white;
+       text-transform: uppercase;
+       height: 30px;
+       line-height: 30px;}
+   li:hover {background-color: gray;
+             cursor: pointer;
+             color: blueviolet;}
+  </style>
  </head>
 <body>
   <header>Header: html문서의 헤더 영역을 의미하는 태그로 제목이나 내비게이션, 검색등의 내용을 포함 <br>텍스트, 인라인, 블록레벨 요소를 포함 할 수 있으면 &lt;header&gt; &lt;footer&gt;는 포함할 수 없다.</header>
@@ -13,5 +30,10 @@
   <article>article: html문서내에서 독립적으로 배표 또는 재사용이 가능한 게시물, 뉴스기사, 블로그 포스팅등을 의미하는 태그로 &lt;h2&gt; ~ &lt;h6&gt; 을 포함하는 것이 좋다. 인라인, 블록속성, 텍스트를 포함 할 수 있다.</article>
   <aside>aside: 메인 컨텐츠와 직접적으로 관련이 없는 영역을 의미하는 태그이며 html 문서의 오른쪽이나 왼쪽의 사이트 메뉴나 광고등의 영역으로 사용된다.</aside>
   <footer>footer: html문서의 푸터 영역을 의미하며 섹션의 작성자나 저작권에 대한 정보, 관련된 문서의 링크를 포함한다.</footer>
+  <ul>
+   <li>메뉴1</li>
+   <li>메뉴2</li>
+   <li>메뉴3</li>
+  </ul>
 </body>
 </html>
